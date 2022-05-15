@@ -11,4 +11,7 @@ c_list = []
 for i in c:
   c_list.append(i)
   
-print(c_list) 
+# print(c_list) 
+new_header = header
+new_header.extend(["退会週", "登録更新者", "hosid分類", "キャンペーン分類"])
+print(new_header)
