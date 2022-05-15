@@ -7,4 +7,8 @@ file = "WORK_分析共有_顧客情報"
 csv_file = open(master + dir + file + ".csv", encoding="shift-jis")
 c = csv.reader(csv_file)
 header = next(c)
-print(header)
+c_list = []
+for i in c:
+  c_list.append(i)
+  
+print(c_list) 
